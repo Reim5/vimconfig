@@ -1,9 +1,8 @@
-# This is the vimrc file of Rei, do not use this if you are not rei
+# Rei's vimrc
 
 ## Installation instructions for vim
 ```(bash)
 mkdir -p ~/.vim/pack/{anyname}/start
-
 ```
 
 cd into it
@@ -21,21 +20,6 @@ load helptags
 vim -u NONE -c "helptags {plugindir}/doc" -c q
 
 ```
-
-## Current packages used
-$HOME/.vim
-├── colors
-│   └── monokai.vim
-└── pack
-    ├── dist
-    │   └── start
-    │       ├── fuzzyy
-    │       ├── vim-airline
-    │       └── vim-floaterm
-    └── tpope
-        └── start
-            └── commentary
-
 ## List of Packages
 1. [fuzzyy](https://github.com/Donaldttt/fuzzyy)
 2. [vim-airline](https://github.com/vim-airline/vim-airline)
