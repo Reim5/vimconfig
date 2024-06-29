@@ -18,7 +18,6 @@ git clone <repo>
 load helptags
 ```(bash)
 vim -u NONE -c "helptags {plugindir}/doc" -c q
-
 ```
 ## List of Packages
 1. [fuzzyy](https://github.com/Donaldttt/fuzzyy)
