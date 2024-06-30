@@ -27,3 +27,11 @@ vim -u NONE -c "helptags {plugindir}/doc" -c q
 
 ## List of Colorschemes
 1. [vim-monokai](https://github.com/crusoexia/vim-monokai)
+
+## Recommendation
+- Link the vimrc file
+
+```(bash)
+cd ~
+ln -s ~/$vimconfig ~/.vimrc
+```
