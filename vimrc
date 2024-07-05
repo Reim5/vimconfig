@@ -54,6 +54,10 @@ set viewoptions-=options
 filetype plugin indent on
 syntax enable
 
+if has("gui_running")
+  set guifont=Consolas:h14:cANSI:qDRAFT
+endif
+
 " User Mappings
 " Set leader key
 let g:mapleader = " "
