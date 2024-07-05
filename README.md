@@ -24,6 +24,7 @@ vim -u NONE -c "helptags {plugindir}/doc" -c q
 2. [vim-airline](https://github.com/vim-airline/vim-airline)
 3. [vim-floaterm](https://github.com/voldikss/vim-floaterm)
 4. [commentary](https://tpope.io/vim/commentary.git)
+5. [vim-cpp-modern](https://github.com/bfrg/vim-cpp-modern)
 
 ## List of Colorschemes
 1. [vim-monokai](https://github.com/crusoexia/vim-monokai)
