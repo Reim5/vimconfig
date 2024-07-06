@@ -22,6 +22,7 @@ set wildmenu
 set scrolloff=5
 set nolangremap
 set autoread
+set nowrap
 set laststatus=2
 set sidescroll=1
 set sidescrolloff=2
