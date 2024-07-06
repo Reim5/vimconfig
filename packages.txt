@@ -1,6 +1,0 @@
-https://github.com/Donaldttt/fuzzyy
-https://github.com/vim-airline/vim-airline
-https://github.com/voldikss/vim-floaterm
-https://tpope.io/vim/commentary.git
-https://github.com/bfrg/vim-cpp-modern
-https://github.com/crusoexia/vim-monokai
