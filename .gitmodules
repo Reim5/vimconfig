@@ -13,3 +13,6 @@
 [submodule "pack/dist/start/vim-cpp-modern"]
 	path = pack/dist/start/vim-cpp-modern
 	url = git@github.com:bfrg/vim-cpp-modern.git
+[submodule "pack/dist/start/vim-renamer"]
+	path = pack/dist/start/vim-renamer
+	url = git@github.com:qpkorr/vim-renamer.git
