@@ -5,6 +5,10 @@ This is rei's vimrc use at your own discretion.
 
 1. Copy the `pack` and `colors` directory to the vim runtime directory.
 
+```bash
+$ git clone --recurse-submodules -j8 git@github.com:Reim5/vimconfig.git
+```
+
 In Linux this is in:
 ```bash
 $HOME/.vim/
