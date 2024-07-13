@@ -1,13 +1,18 @@
 # rei's vimrc
 This is rei's vimrc use at your own discretion.
 
+## Pre-requisite(s)
+1. [astyle](https://astyle.sourceforge.net/)
+
 ## General Instructions
 
 1. Copy the `pack` and `colors` directory to the vim runtime directory.
 
 ```bash
-$ git clone --recurse-submodules -j8 git@github.com:Reim5/vimconfig.git
+$ git clone --recurse-submodules -j6 git@github.com:Reim5/vimconfig.git
 ```
+
+To know how many CPUs you have in a posix system run: `nproc` or `lscpu`
 
 In Linux this is in:
 ```bash

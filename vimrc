@@ -1,8 +1,6 @@
 " Settings
 " Disable vi compatibility
-if &compatible
-	set nocompatible
-endif
+set nocompatible
 
 " my settings
 " <S-K> to show option
@@ -117,3 +115,12 @@ let g:cpp_simple_highlight = 1
 
 " vim-renamer
 nnoremap <leader>r <cmd>Renamer<CR>
+
+" vim format
+" The line after '\' are astyle options.
+if executable("astyle")
+  autocmd FileType c,cpp nnoremap <silent> <F3> <cmd>w!<CR> <cmd>!astyle -qnA14s2t2T2xVSKLxWwYMFpxgHxek3W3xbj %<CR> <cmd>redraw!<CR>
+else
+  echo "astyle is not installed. Formatting is not enabled.\n"
+endif
+
