@@ -1,18 +1,18 @@
 [submodule "pack/dist/start/fuzzyy"]
 	path = pack/dist/start/fuzzyy
-	url = git@github.com:Donaldttt/fuzzyy.git
+	url = https://github.com:Donaldttt/fuzzyy.git
 [submodule "pack/dist/start/vim-airline"]
 	path = pack/dist/start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
+	url = https://github.com:vim-airline/vim-airline.git
 [submodule "pack/dist/start/vim-floaterm"]
 	path = pack/dist/start/vim-floaterm
-	url = git@github.com:voldikss/vim-floaterm.git
+	url = https://github.com:voldikss/vim-floaterm.git
 [submodule "pack/dist/start/vim-commentary"]
 	path = pack/dist/start/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+	url = https://github.com:tpope/vim-commentary.git
 [submodule "pack/dist/start/vim-cpp-modern"]
 	path = pack/dist/start/vim-cpp-modern
-	url = git@github.com:bfrg/vim-cpp-modern.git
+	url = https://github.com:bfrg/vim-cpp-modern.git
 [submodule "pack/dist/start/vim-renamer"]
 	path = pack/dist/start/vim-renamer
-	url = git@github.com:qpkorr/vim-renamer.git
+	url = https://github.com:qpkorr/vim-renamer.git
