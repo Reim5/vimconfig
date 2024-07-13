@@ -79,6 +79,9 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<Esc>O
 inoremap {;<CR> {<CR>};<Esc>O
 
+" Sort content in visual
+vnoremap <leader>s <cmd>'<,'>sort<CR><ESC>
+
 " vim-airline
 let g:airline#extensions#tabline#enabled=1
 
