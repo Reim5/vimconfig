@@ -9,10 +9,16 @@ This is rei's vimrc use at your own discretion.
 1. Copy the `pack` and `colors` directory to the vim runtime directory.
 
 ```bash
-$ git clone --recurse-submodules -j6 git@github.com:Reim5/vimconfig.git
+$ git clone --recurse-submodules git@github.com:Reim5/vimconfig.git
 ```
 
 To know how many CPUs you have in a posix system run: `nproc` or `lscpu`
+
+Alternatively you can run
+
+```bash
+$ git clone --recurse-submodules -j`nproc --ignore=2` git@github.com:Reim5/vimconfig.git
+```
 
 In Linux this is in:
 ```bash
