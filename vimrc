@@ -86,8 +86,8 @@ vnoremap <leader>s <cmd>'<,'>sort<CR><ESC>
 let g:airline#extensions#tabline#enabled=1
 
 " vim-commentary
-nnoremap <Leader>/ <cmd>Commentary<CR>
-vnoremap <Leader>/ <cmd>'<,'>Commentary<CR>
+nmap <Leader>/ gcc
+vmap <leader>/ gc
 
 " fuzzy finder
 let g:enable_fuzzyy_keymaps = 0
