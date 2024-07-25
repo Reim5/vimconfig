@@ -9,15 +9,16 @@ This is rei's vimrc use at your own discretion.
 1. Copy the `pack` and `colors` directory to the vim runtime directory.
 
 ```bash
-$ git clone --recurse-submodules git@github.com:Reim5/vimconfig.git
+git clone --recurse-submodules https://github.com/Reim5/vimconfig.git
 ```
+
 
 To know how many CPUs you have in a posix system run: `nproc` or `lscpu`
 
 Alternatively you can run
 
 ```bash
-$ git clone --recurse-submodules -j`nproc --ignore=2` git@github.com:Reim5/vimconfig.git
+git clone --recurse-submodules -j`nproc --ignore=2` https://github.com/Reim5/vimconfig.git
 ```
 
 In Linux this is in:
@@ -36,7 +37,7 @@ $USER/vimfiles/
 
 Install vim through your system package manager
 ```bash
-$ sudo apt install vim
+sudo apt install vim
 ```
 Installation instructions for vim packages
 ```(bash)
@@ -58,11 +59,11 @@ vim -u NONE -c "helptags {plugindir}/doc" -c q
 
 Install gVim through some type of shell (Powershell) if possible. The command below will install vim as a CMD app and gVim.
 ```powershell
-$ winget install vim.vim
+winget install vim.vim
 ```
 Create this directory to store vim's configuration files
 ```
-$ mkdir $HOME/vimfiles/
+mkdir $HOME/vimfiles/
 ```
 vimrc location (no dot)
 ```
