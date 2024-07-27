@@ -63,6 +63,7 @@ let g:mapleader = " "
 
 " buffer management
 nnoremap <Tab> <cmd>bnext!<CR>
+nnoremap <S-Tab> <cmd>bprev!<CR>
 nnoremap <Leader>b <cmd>enew<CR>
 nnoremap <Leader>x <cmd>bdelete<CR>
 
