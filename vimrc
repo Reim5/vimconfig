@@ -132,4 +132,4 @@ endif
 " vim run via <F5> Python only
 autocmd FileType python nnoremap <F5> <cmd>w!<CR> <cmd>!make<CR>
 " Enable enhanced python highlighting
-let g:python_highlighting_all = 1
+let g:python_highlight_all = 1
