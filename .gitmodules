@@ -16,3 +16,6 @@
 [submodule "pack/dist/start/vim-renamer"]
 	path = pack/dist/start/vim-renamer
 	url = https://github.com/qpkorr/vim-renamer.git
+[submodule "pack/dist/start/python-syntax"]
+	path = pack/dist/start/python-syntax
+	url = https://github.com/vim-python/python-syntax
