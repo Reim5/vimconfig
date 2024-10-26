@@ -10,9 +10,9 @@ set backspace=indent,eol,start
 set incsearch
 set ruler
 set smarttab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 set ttimeout
 set ttimeoutlen=500
@@ -30,6 +30,27 @@ set tabpagemax=50
 set mouse=a
 set encoding=utf8
 colorscheme monokai
+
+" Web Dev related --START--
+set nobackup
+set nowritebackup
+set updatetime=300
+set signcolumn=yes
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+" END
 
 if !empty(&viminfo)
   set viminfo^=!
