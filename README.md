@@ -82,6 +82,7 @@ $HOME/vimfiles/pack/dist/start/*
 5. [vim-cpp-modern](https://github.com/bfrg/vim-cpp-modern)
 6. [vim-renamer](https://github.com/qpkorr/vim-renamer)
 7. [vim-python](https://github.com/vim-python/python-syntax)
+8. [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 ### List of Colorschemes
 1. [vim-monokai](https://github.com/crusoexia/vim-monokai)
