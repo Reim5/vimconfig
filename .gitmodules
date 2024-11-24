@@ -27,3 +27,7 @@
 	path = pack/dist/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 	branch = master
+[submodule "pack/dist/start/vim-repeat"]
+	path = pack/dist/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+	branch = master

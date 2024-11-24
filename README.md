@@ -89,6 +89,7 @@ $HOME/vimfiles/pack/dist/start/*
 7. [vim-python](https://github.com/vim-python/python-syntax)
 8. [coc.nvim](https://github.com/neoclide/coc.nvim)
 9. [vim-surround](https://github.com/tpope/vim-surround)
+10. [vim-repeat](https://github.com/tpope/vim-repeat)
 
 ### List of Colorschemes
 1. [vim-monokai](https://github.com/crusoexia/vim-monokai)
