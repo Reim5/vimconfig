@@ -31,6 +31,11 @@ In Windows this is in:
 $USER/vimfiles/
 ```
 
+After installing the packages make sure to run this to generate helptags
+```bash
+vim -u NONE -c "helptags ALL" -c q
+```
+
 ## OS specific Instructions
 
 ### Linux Instructions
