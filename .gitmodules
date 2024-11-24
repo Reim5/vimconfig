@@ -31,3 +31,7 @@
 	path = pack/dist/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 	branch = master
+[submodule "pack/dist/start/vim-polyglot"]
+	path = pack/dist/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+	branch = master
