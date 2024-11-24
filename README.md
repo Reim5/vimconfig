@@ -31,6 +31,11 @@ In Windows this is in:
 $USER/vimfiles/
 ```
 
+After installing the packages make sure to run this to generate helptags
+```bash
+vim -u NONE -c "helptags ALL" -c q
+```
+
 ## OS specific Instructions
 
 ### Linux Instructions
@@ -82,6 +87,8 @@ $HOME/vimfiles/pack/dist/start/*
 5. [vim-cpp-modern](https://github.com/bfrg/vim-cpp-modern)
 6. [vim-renamer](https://github.com/qpkorr/vim-renamer)
 7. [vim-python](https://github.com/vim-python/python-syntax)
+8. [coc.nvim](https://github.com/neoclide/coc.nvim)
+9. [vim-surround](https://github.com/tpope/vim-surround)
 
 ### List of Colorschemes
 1. [vim-monokai](https://github.com/crusoexia/vim-monokai)

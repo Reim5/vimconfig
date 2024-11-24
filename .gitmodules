@@ -19,3 +19,11 @@
 [submodule "pack/dist/start/python-syntax"]
 	path = pack/dist/start/python-syntax
 	url = https://github.com/vim-python/python-syntax
+[submodule "pack/dist/start/coc.nvim"]
+	path = pack/dist/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+	branch = release
+[submodule "pack/dist/start/vim-surround"]
+	path = pack/dist/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+	branch = master
