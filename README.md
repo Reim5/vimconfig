@@ -3,6 +3,7 @@ This is rei's vimrc use at your own discretion.
 
 ## Pre-requisite(s)
 1. [astyle](https://astyle.sourceforge.net/)
+2. git - consult your package provider
 
 ## General Instructions
 
@@ -91,6 +92,7 @@ $HOME/vimfiles/pack/dist/start/*
 9. [vim-surround](https://github.com/tpope/vim-surround)
 10. [vim-repeat](https://github.com/tpope/vim-repeat)
 11. [vim-polyglot](https://github.com/sheerun/vim-polyglot)
+12. [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 ### List of Colorschemes
 1. [vim-monokai](https://github.com/crusoexia/vim-monokai)
