@@ -29,6 +29,7 @@ set history=1000
 set tabpagemax=50
 set mouse=a
 set encoding=utf8
+set modelines=0
 colorscheme monokai
 
 " Web Dev related --START--
@@ -112,7 +113,17 @@ nmap <Leader>/ gcc
 vmap <leader>/ gc
 
 " fuzzy finder
+" options
 let g:enable_fuzzyy_keymaps = 0
+let g:fuzzyy_ripgrep_options = [
+  \ "--no-follow",
+  \ "-glob \"{Doxygen/*}\""
+  \ ]
+let g:fuzzyy_exclude_file = ['tags','*/tags', '/*.swp', '*/*.o', '*/*.d', '*/*.lst']
+let g:fuzzyy_exclude_dir = []
+let g:fuzzyy_async_step = 10000
+
+" mappings
 nnoremap <silent> <leader>fb <cmd>FuzzyInBuffer<CR>
 nnoremap <silent> <leader>fc <cmd>FuzzyColors<CR>
 nnoremap <silent> <leader>fd <cmd>FuzzyHelps<CR>
