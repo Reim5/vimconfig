@@ -33,8 +33,10 @@ $USER/vimfiles/
 ```
 
 After installing the packages make sure to run this to generate helptags
+
+on linux:
 ```bash
-vim -u NONE -c "helptags ALL" -c q
+find ~/.vim -type d -name doc -exec vim -c "helptags {}" -c q \;
 ```
 
 ## OS specific Instructions
